@@ -1,0 +1,8 @@
+.línea{
+    display: flex;
+    font-family: Poppins;
+}
+section{
+    display: flex;
+    justify-content: center;
+}
