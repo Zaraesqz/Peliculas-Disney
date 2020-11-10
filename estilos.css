@@ -1,6 +1,7 @@
 .línea{
     display: flex;
     font-family: Poppins;
+    list-style: none;
 }
 section{
     display: flex;
@@ -10,4 +11,13 @@ section{
 }
 body{
     
+}
+
+.línea li{
+    margin: 0 8px;
+}
+
+.línea li a{
+    text-decoration: none;
+    color: black;
 }
