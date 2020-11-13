@@ -3,18 +3,20 @@
     font-family: Poppins;
     list-style: none;
 }
+
 section{
     display: flex;
     justify-content: center;
     font-family:Bebas Neue;
-    
+    font-size: 100px;   
 }
+
 body{
     
 }
 
 .línea li{
-    margin: 0 8px;
+    margin: 0 10px;
 }
 
 .línea li a{
