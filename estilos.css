@@ -10,8 +10,15 @@ section{
     font-family:Bebas Neue;
     font-size: 100px; ;
 }
-
-div{
+.headers{
+    display: flex;
+    flex-direction: row;
+}
+.wrappers{
+    display: flex;
+    flex-direction: column;
+}
+.tittle{
     position: absolute;
     top: 600px;
     color: lightslategrey;
