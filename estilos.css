@@ -26,7 +26,7 @@ section{
 .tittle{
     position: absolute;
     top: 600px;
-    color: lightslategrey;
+    color: rgb(177, 187, 197);
 }
 
 body{
@@ -49,23 +49,5 @@ article{
     font-family: Bebas neue;
     font-size: 30px;
     color: whitesmoke;
-<<<<<<< Updated upstream
-}
-=======
-<<<<<<< HEAD
-   
 }
 
-#hero{
-    width: 100%;
-    height: 640px;
-    background-image: url(../Peliculas-Disney/Imágenes/pixarprincipal.jpg);
-    background-repeat: no-repeat;
-    background-size: 1300px 600px;
-    background-position: center;
-    
-}
-=======
-}
->>>>>>> f78bb0519747c8371e0ec8f539e0246ceb41c54f
->>>>>>> Stashed changes
