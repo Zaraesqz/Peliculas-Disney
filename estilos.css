@@ -16,12 +16,13 @@ section{
     flex-direction: row;
     color: lightslategrey;
     font-family: Quicksand;
-    position: absolute;
-    left: 250p;
+    margin: 0 auto;
+    width: 80%;
 }
-.wrappers{
-    display: flex;
-    flex-direction: column;
+.footer-elements{
+    flex: 1;
+    padding: 0 8px;
+    text-align: center;
 }
 .tittle{
     position: absolute;
