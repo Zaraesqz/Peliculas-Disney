@@ -47,7 +47,7 @@ background-color: black;
 article{
     display: inline;
     justify-content: left;
-    font-family: Bebas neue;
+    font-family: quicksand;
     font-size: 30px;
     color: whitesmoke;
 }
@@ -57,4 +57,42 @@ article{
     flex-wrap: wrap;
     width: 95%;
     margin: 5%;
+}
+
+#hero{
+    width: 100%;
+    height: 500px;
+    background: linear-gradient(transparent, black), url(../Peliculas-Disney/Imágenes/SOUL-PIXAR.jpg); no-repeat center;
+    position: absolute;
+    z-index: -1;
+    background-size: cover;
+
+}
+
+#video-container iframe{
+    position: absolute;
+    margin: 40px auto;
+    width: 50%;
+    height: 60%;
+}
+
+.paralax{
+background: linear-gradient(transparent, rgb(0, 0, 0)), url(../Peliculas-Disney/Imágenes/waltdibujando.jpg);
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+background-position-y: 20;
+}
+
+.paralax p{
+    width: 100%;
+}
+
+.primeros-mickeys{
+    display: flex;
+}
+
+.contacto{
+    font-family: quicksand;
 }
