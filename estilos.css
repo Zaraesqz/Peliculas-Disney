@@ -108,7 +108,27 @@ background-position-y: 20;
 
 .imagen-principal{
 background: url(../Peliculas-Disney/Imágenes/walt-mickey.jpg);
+  
+}
 
+.hero2{
 
-    
+}
+
+#video-container2 iframe{
+
+}
+.peliculas-clasicas{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 95%;
+    margin: 5%;
+}
+.peliculas-clasicas-despues{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 95%;
+    margin: 5%;
 }
