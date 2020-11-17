@@ -10,6 +10,7 @@ section{
     font-family:Bebas Neue;
     font-size: 100px;
     color: whitesmoke;
+    
 }
 .footer-base{
     display: flex;
@@ -105,3 +106,9 @@ background-position-y: 20;
     margin: 5%; 
 }
 
+.imagen-principal{
+background: url(../Peliculas-Disney/Imágenes/walt-mickey.jpg);
+
+
+    
+}
