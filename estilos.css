@@ -96,3 +96,12 @@ background-position-y: 20;
 .contacto{
     font-family: quicksand;
 }
+
+.peliculas-live-action-producidas{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 95%;
+    margin: 5%; 
+}
+
