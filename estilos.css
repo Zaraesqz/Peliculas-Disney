@@ -32,7 +32,7 @@ section{
 }
 
 body{
-background-color: black;
+    background-color: black;
     
 }
 
@@ -48,7 +48,7 @@ background-color: black;
 article{
     display: inline;
     justify-content: left;
-    font-family: quicksand;
+    font-family: Quicksand;
     font-size: 30px;
     color: whitesmoke;
 }
@@ -78,12 +78,12 @@ article{
 }
 
 .paralax{
-background: linear-gradient(transparent, rgb(0, 0, 0)), url(../Peliculas-Disney/Imágenes/waltdibujando.jpg);
-background-attachment: fixed;
-background-position: center;
-background-repeat: no-repeat;
-background-size: cover;
-background-position-y: 20;
+    background: linear-gradient(transparent, rgb(0, 0, 0)), url(../Peliculas-Disney/Imágenes/waltdibujando.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: 20;
 }
 
 .paralax p{
@@ -107,7 +107,7 @@ background-position-y: 20;
 }
 
 .imagen-principal{
-background: url(../Peliculas-Disney/Imágenes/walt-mickey.jpg);
+    background: url(../Peliculas-Disney/Imágenes/walt-mickey.jpg);
   
 }
 
@@ -115,9 +115,8 @@ background: url(../Peliculas-Disney/Imágenes/walt-mickey.jpg);
 
 }
 
-#video-container2 iframe{
+#video-container2 iframe
 
-}
 .peliculas-clasicas{
     display: flex;
     flex-direction: row;
@@ -131,4 +130,9 @@ background: url(../Peliculas-Disney/Imágenes/walt-mickey.jpg);
     flex-wrap: wrap;
     width: 95%;
     margin: 5%;
+}
+#estrenos{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
 }
