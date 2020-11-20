@@ -3,7 +3,11 @@
     font-family: Poppins;
     list-style: none;
 }
-
+.Imagen-principal{
+   width: 100%;
+   margin: 0%;
+  
+}
 section{
     display: block;
     justify-content: center;
@@ -28,7 +32,7 @@ section{
 .tittle{
     position: absolute;
     top: 600px;
-    color: rgb(177, 187, 197);
+    color: rgb(255, 255, 255);
 }
 
 body{
@@ -161,4 +165,17 @@ article{
     background-repeat: no-repeat;
     background-size: cover;
     background-position-y: 20;
+}
+.footer-datos{
+    display: inline;
+    justify-content: left;
+    font-family: Quicksand;
+    font-size: 30px;
+    color: whitesmoke; 
+}
+
+.imagen-cruella{
+    width: 65%;
+    margin: 0%;
+    
 }
