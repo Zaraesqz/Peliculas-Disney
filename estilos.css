@@ -75,10 +75,13 @@ article{
 }
 
 #video-container iframe{
+    display: flex;
+    justify-content: left;
     position: absolute;
-    margin: 40px auto;
+    margin: 60px auto;
     width: 50%;
     height: 60%;
+    left: 80px;
 }
 
 .paralax{
@@ -98,9 +101,11 @@ article{
     display: flex;
 }
 
-#contacto{
+.contacto{
+    display: flex;
     font-family: quicksand;
-  
+    font-size: 40px;
+    flex-direction: column;
 }
 
 .peliculas-live-action-producidas{
@@ -116,11 +121,16 @@ article{
   
 }
 
-.hero2{
+#video-container2 iframe{
 
+    width: 100%;
+    height: 500px;
+    background: linear-gradient(transparent, black), url(../Peliculas-Disney/Imágenes/SOUL-PIXAR.jpg); no-repeat center;
+    position: absolute;
+    z-index: -1;
+    background-size: cover;
 }
 
-#video-container2 iframe
 
 .peliculas-clasicas{
     display: flex;
@@ -142,21 +152,13 @@ article{
     flex-direction: column;
 }
 
-#hero-disney{
-    width: 100%;
-    height: 500px;
-    background: linear-gradient(transparent, black), url(../Peliculas-Disney/Imágenes/rayaaa.png); no-repeat center;
-    position: absolute;
-    z-index: -1;
-    background-size: cover;
-}
-
 #video-container-disney{
         position: absolute;
-        margin: 90px auto;
-        width: 50%;
-        height: 60%;
+        margin: 50px auto;
+        width: 100%;
+        height: 100%;
 }
+
 
 .paralax2{
     background: linear-gradient(rgb(128, 126, 20), rgb(53, 2, 2));
@@ -197,8 +199,24 @@ article{
 @keyframes mianimacion{
     0%{background: rgb(48, 105, 128);left: 0;top: 0;}
     25%{background: rgb(42, 116, 126);left:1225px; top: 0px;}
-    50%{background: rgb(214, 226, 39);}
-    75%{background: rgb(117, 1, 1);left: 0; 0;top: 0px;}
+    50%{background: rgb(41, 209, 173);}
+    75%{background: rgb(8, 136, 61);left: 0; 0;top: 0px;}
     100%{background: blue;}
 
 }
+
+.datos-finales{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    font-family: quicksand;
+    font-size: 20px;
+    background-color: rgb(37, 37, 37);
+}
+
+#estrenos-1{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+
