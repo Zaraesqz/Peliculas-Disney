@@ -178,6 +178,7 @@ article{
 .contacto-texto{
     font-family: quicksand;
     font-size: 30px;
+    background-color: rgb(42, 165, 134);
 }
 .imagen-cruella{
     width: 65%;
@@ -220,3 +221,8 @@ article{
     flex-direction: column;
 }
 
+.contacto-datos{
+    font-family: quicksand;
+    font-size: 25px;
+
+}
